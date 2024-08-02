@@ -28,7 +28,7 @@ const About = () => {
             Location
           </Link>
         </div>
-        <div className='h-[80vh]'>
+        <div className='sm:h-[80vh] xsm:h-[73vh]'>
           {
             showLocation ? 
             <div>
