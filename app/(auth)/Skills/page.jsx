@@ -13,7 +13,7 @@ const Skills = () => {
 
   return (
     <Inner>
-    <div className='sm:h-[90vh] xsm:h-[86vh] overflow-auto no-scrollbar'>
+    <div className='sm:h-[90vh] xsm:h-[84vh] overflow-auto no-scrollbar'>
       <Skillcomp/>
     </div>
     </Inner>

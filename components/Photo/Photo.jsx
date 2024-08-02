@@ -8,7 +8,7 @@ const Photo = () => {
   const venkatesh = '/images/venky.png';
 
   return (
-    <div className="relative lg:w-[25rem] lg:h-[25rem] xsm:w-[16rem] xsm:h-[16rem] h-[20rem] sm:w-[18rem] sm:h-[18rem] ">
+    <div className="relative lg:w-[25rem] lg:h-[25rem] xsm:w-[16rem] xsm:h-[16rem] h-[20rem] sm:w-[16rem] sm:h-[16rem] ">
       <ParticleBackground/>
       <motion.div className="absolute inset-0">
         <Image

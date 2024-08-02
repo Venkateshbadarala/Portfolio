@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
   return (
     <Inner>
-      <div className='h-[90vh] overflow-auto no-scrollbar '>
+      <div className='sm:h-[90vh] xsm:h-[85vh] overflow-auto no-scrollbar '>
       <Projectcomp/>
       </div>
     </Inner>
