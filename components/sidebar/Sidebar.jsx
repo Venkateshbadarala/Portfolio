@@ -28,7 +28,7 @@ const Sidebar = () => {
           <Link href={item.link} key={index} passHref>
             <div className={`relative flex items-center group ${item.active ? 'text-blue-600 dark:text-blue-600' : 'text-white dark:text-white'}`}>
               <div className="relative flex items-center">
-                <span className="absolute right-[2.5rem] ml-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-300 dark:bg-gray-700 text-black dark:text-white font-bold p-2 rounded-md">
+                <span className="xsm:hidden sm:flex absolute right-[2.5rem] ml-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-300 dark:bg-gray-700 text-black dark:text-white font-bold p-2 rounded-md">
                   {item.name}
                 </span>
                 <div className="text-2xl">{item.icon}</div>

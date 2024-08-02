@@ -8,7 +8,7 @@ const Contact = () => {
   })
   return (
     <Inner>
-    <div className="min-h-screen  flex items-center justify-center">
+    <div className="xsm:h-[85vh] sm:h-[100vh] flex items-center justify-center">
       <Hireme/>
     </div>
     </Inner>

@@ -15,7 +15,7 @@ const Stats = () => {
             title: 'Projects Completed',
         },
         {
-            num: 5,
+            num: 9,
             title: 'Technologies mastered',
         },
         {
@@ -32,9 +32,9 @@ const Stats = () => {
                         end={item.num}
                         duration={5}
                         delay={2}
-                        className='text-4xl font-bold text-blue-500'
+                        className='sm:text-4xl xsm:text-2xl font-bold text-blue-500'
                     />
-                    <p className="mt-2 text-lg font-bold text-blue-100 xsm:text-[10px] md:text-xl lg:text-2xl">{item.title}</p>
+                    <p className="mt-2 text-lg font-bold text-blue-100 xsm:text-[8px] md:text-xl lg:text-2xl">{item.title}</p>
                 </div>
             ))}
         </div>
