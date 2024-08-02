@@ -18,10 +18,9 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simulate loading for demonstration purposes
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Change this value to match your loading time
+    }, 3000); 
 
     return () => clearTimeout(timer);
   }, []);
@@ -36,7 +35,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {loading ? (
-        <div className='fixed inset-0 '>
+        <div className='fixed inset-0'>
           <SvgPathLoader />
         </div>
       ) : (
@@ -45,11 +44,11 @@ export default function Home() {
           <div className="flex flex-row items-center justify-around h-[80vh] overflow-hidden p-8 xsm:flex-col md:flex-row">
             <div className="flex flex-col gap-8">
               <h1 className="font-bold text-white lg:text-7xl xsm:text-4xl xsm:w-[25rem] md:w-full">
-                <p>Hello, I'm </p>
+                <p>Hello, I&apos;m </p>
                 <span className="text-blue-500">Badarala Venkatesh</span>
               </h1>
               <div className="flex items-center gap-2 lg:text-4xl font-bold text-cyan-500 xsm:text-2xl xsm:items-center">
-                <p className="text-white">I'm a</p>
+                <p className="text-white">I&apos;m a</p>
                 <span>{text}</span>
                 <Cursor />
               </div>

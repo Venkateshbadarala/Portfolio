@@ -16,7 +16,7 @@ const About = () => {
   }, []);
 
   return (
-    <Inner>
+    <Inner backgroundColor="yourColorCodeOrValue"> {/* Provide the required prop here */}
       <div className='flex flex-col gap-8 py-4 md:overflow-auto xsm:overflow-auto no-scrollbar'>
         <div className='text-white flex justify-center items-center gap-10 font-bold text-[20px] '>
           <Link href='#' onClick={() => setShowLocation(!true)} 
@@ -36,7 +36,6 @@ const About = () => {
             </div> 
             : 
             <Educationcomp />
-            
           }
         </div>
       </div>

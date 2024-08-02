@@ -7,7 +7,7 @@ import { Suspense } from "react";
 
 const Sidebar = dynamic(() => import('@/components/sidebar/Sidebar'), { ssr: false });
 const Navbar = dynamic(() => import('@/components/Navbar/Navbar'), { ssr: false });
-const Loading = dynamic(() => import('./loading'), { ssr: false });
+
 
 const sora = Sora({
   subsets: ["latin"],
@@ -34,9 +34,9 @@ export default function RootLayout({
             <div className="flex flex-1">
               <Sidebar />
               <main className="flex-1">
-                <Suspense fallback={<Loading />}>
+                
                   {children}
-                </Suspense>
+               
               </main>
             </div>
           </div>
