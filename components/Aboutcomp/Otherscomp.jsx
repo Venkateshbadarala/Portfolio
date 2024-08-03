@@ -20,12 +20,12 @@ const Otherscomp = () => {
       className='text-white flex flex-col justify-center items-center gap-10 font-bold'
     >
       <motion.h1 variants={itemVariants} className='text-4xl'>Location</motion.h1>
-      <motion.div variants={itemVariants} className='grid grid-cols-2 gap-10 xsm:grid-cols-1 sm:grid-cols-2'>
+      <motion.div variants={itemVariants} className='grid gap-10 xsm:grid-cols-1 sm:grid-cols-2'>
         {/* Current Location */}
         <motion.div variants={itemVariants} className='flex flex-col justify-center items-center border border-sky-900 p-8 gap-6'>
           <h1 className='text-3xl border-b border-sky-700'>Current</h1>
           <div className='flex flex-col gap-5'>
-            <h1 className='flex gap-2 text-xl'>Location:<span className='text-sky-500'>Bhimavaram</span></h1>
+            <h1 className='flex gap-2 text-xl'>Location: <span className='text-sky-500'>Bhimavaram</span></h1>
             <h1 className='flex gap-2 text-xl'>Purpose: <span className='text-sky-500'>Education</span></h1>
           </div>
           <div>
@@ -43,7 +43,7 @@ const Otherscomp = () => {
         <motion.div variants={itemVariants} className='flex flex-col justify-center items-center border border-sky-900 p-8 gap-6'>
           <h1 className='text-3xl border-b border-sky-700'>Native</h1>
           <div>
-            <h1 className='flex gap-2 text-xl'>Location:<span className='text-sky-500'>Navabpalem</span></h1>
+            <h1 className='flex gap-2 text-xl'>Location: <span className='text-sky-500'>Navabpalem</span></h1>
           </div>
           <div>
             <iframe 

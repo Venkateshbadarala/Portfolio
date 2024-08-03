@@ -41,7 +41,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <div className='xsm:ps-6'>
+      <div className='xsm:ps-6 z-30'>
         <ThemeSwitch/>
       </div>
       </div>
