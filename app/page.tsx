@@ -43,7 +43,7 @@ export default function Home() {
           <PartcleBackground />
           <div className="flex flex-row items-center justify-around h-[80vh] overflow-hidden p-8 xsm:flex-col md:flex-row sm:flex-row ">
             <div className="flex flex-col gap-8">
-              <h1 className="font-bold text-white lg:text-7xl xsm:text-[1.7rem] sm:text-4xl xsm:w-[18rem] md:w-full">
+              <h1 className="font-bold text-white lg:text-7xl xsm:text-[1.7rem] sm:text-3xl xsm:w-[18rem] md:w-full">
                 <p>Hello, I&apos;m </p>
                 <span className="text-blue-500">Badarala Venkatesh</span>
               </h1>
