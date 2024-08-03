@@ -34,7 +34,7 @@ const Stats = () => {
                         delay={2}
                         className='sm:text-3xl xsm:text-2xl font-bold text-blue-500'
                     />
-                    <p className=" text-lg font-bold text-blue-100 xsm:text-[8px] md:text-xl lg:text-2xl">{item.title}</p>
+                    <p className=" text-lg font-bold text-blue-100 xsm:text-[8px] sm:text-[1rem] md:text-xl lg:text-2xl">{item.title}</p>
                 </div>
             ))}
         </div>

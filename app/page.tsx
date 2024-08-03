@@ -43,7 +43,7 @@ export default function Home() {
           <PartcleBackground />
           <div className="flex flex-row items-center justify-around h-[80vh] overflow-hidden p-8 xsm:flex-col md:flex-row sm:flex-row ">
             <div className="flex flex-col gap-8">
-              <h1 className="font-bold text-white lg:text-7xl xsm:text-[1.7rem] sm:text-3xl xsm:w-[18rem] md:w-full">
+              <h1 className="font-bold text-white lg:text-7xl xsm:text-[1.7rem] sm:text-4xl xsm:w-[18rem] md:w-full">
                 <p>Hello, I&apos;m </p>
                 <span className="text-blue-500">Badarala Venkatesh</span>
               </h1>
@@ -52,18 +52,18 @@ export default function Home() {
                 <span>{text}</span>
                 <Cursor />
               </div>
-              <div className='xsm:w-[20rem] sm:w-[24rem] flex justify-center md:justify-start'>
+              <div className='xsm:w-[20rem] sm:w-[22rem] flex justify-center md:justify-start'>
                 <Link
                   href="https://drive.google.com/file/d/167r9wgTJ7t3VhYCJ3ZrWhzJAtalNfY_y/view?usp=sharing"
                   download="Badarala_Venkatesh_CV.pdf"
                   className="w-1/2  flex items-center justify-center gap-4 p-2 font-bold text-white border border-blue-600 rounded-full z-0"
                 >
-                  <span className="flex gap-3 xsm:text-[12px] sm:text-[15px]">DOWNLOAD CV</span>
+                  <span className="flex gap-3 xsm:text-[12px] sm:text-[14px]">DOWNLOAD CV</span>
                   <FiDownloadCloud />
                 </Link>
               </div>
             </div>
-            <div className='xsm:w-[15rem] sm:w-[21rem]'>
+            <div className='xsm:w-[15rem] sm:w-[18rem]'>
               <Photo />
             </div>
           </div>
